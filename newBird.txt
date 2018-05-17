@@ -2,3 +2,7 @@ import cv2
 #import sys
 #print(sys.version)
 #print(cv2.__version__)
+srcImg = cv2.imread('test.jpg')
+cv2.imshow(srcImg)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
